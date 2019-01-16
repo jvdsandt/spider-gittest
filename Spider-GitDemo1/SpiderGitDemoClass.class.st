@@ -9,6 +9,12 @@ Class {
 }
 
 { #category : #accessing }
+SpiderGitDemoClass class >> maxAge [
+
+	^ 123
+]
+
+{ #category : #accessing }
 SpiderGitDemoClass >> age [
 	^ age
 ]
