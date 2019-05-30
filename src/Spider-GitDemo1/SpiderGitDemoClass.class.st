@@ -1,3 +1,6 @@
+"
+This is just a useless demo class!
+"
 Class {
 	#name : #SpiderGitDemoClass,
 	#superclass : #Object,
