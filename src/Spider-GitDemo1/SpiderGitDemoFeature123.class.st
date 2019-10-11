@@ -15,6 +15,12 @@ SpiderGitDemoFeature123 >> do: stuff [
 ]
 
 { #category : #testing }
+SpiderGitDemoFeature123 >> do: aBlock [
+
+	self minNumber to: self maxNumber do: aBlock
+]
+
+{ #category : #testing }
 SpiderGitDemoFeature123 >> includes: aNumber [
 
 	^ aNumber between: self minNumber and: self maxNumber
