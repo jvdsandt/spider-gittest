@@ -8,6 +8,12 @@ Class {
 	#category : #'Spider-GitDemo1'
 }
 
+{ #category : #enumerating }
+SpiderGitDemoFeature123 >> do: stuff [
+
+	minNumber to: maxNumber do: stuff
+]
+
 { #category : #testing }
 SpiderGitDemoFeature123 >> includes: aNumber [
 
