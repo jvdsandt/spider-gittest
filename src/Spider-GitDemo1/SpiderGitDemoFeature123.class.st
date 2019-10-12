@@ -4,7 +4,8 @@ Class {
 	#instVars : [
 		'minNumber',
 		'maxNumber',
-		'comment'
+		'comment',
+		'description'
 	],
 	#category : #'Spider-GitDemo1'
 }
@@ -17,6 +18,16 @@ SpiderGitDemoFeature123 >> comment [
 { #category : #accessing }
 SpiderGitDemoFeature123 >> comment: anObject [
 	comment := anObject
+]
+
+{ #category : #accessing }
+SpiderGitDemoFeature123 >> description [
+	^ description
+]
+
+{ #category : #accessing }
+SpiderGitDemoFeature123 >> description: anObject [
+	description := anObject
 ]
 
 { #category : #enumerating }
