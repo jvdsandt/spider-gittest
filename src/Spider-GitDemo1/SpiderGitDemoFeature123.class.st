@@ -3,21 +3,26 @@ Class {
 	#superclass : #Object,
 	#instVars : [
 		'minNumber',
-		'maxNumber'
+		'maxNumber',
+		'description'
 	],
 	#category : #'Spider-GitDemo1'
 }
+
+{ #category : #accessing }
+SpiderGitDemoFeature123 >> description [
+	^ description
+]
+
+{ #category : #accessing }
+SpiderGitDemoFeature123 >> description: anObject [
+	description := anObject
+]
 
 { #category : #enumerating }
 SpiderGitDemoFeature123 >> do: stuff [
 
 	minNumber to: maxNumber do: stuff
-]
-
-{ #category : #testing }
-SpiderGitDemoFeature123 >> do: aBlock [
-
-	self minNumber to: self maxNumber do: aBlock
 ]
 
 { #category : #testing }
