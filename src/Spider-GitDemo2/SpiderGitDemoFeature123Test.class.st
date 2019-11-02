@@ -1,7 +1,7 @@
 Class {
 	#name : #SpiderGitDemoFeature123Test,
 	#superclass : #TestCase,
-	#category : #'Spider-GitDemo1'
+	#category : #'Spider-GitDemo2'
 }
 
 { #category : #tests }
