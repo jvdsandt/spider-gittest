@@ -5,6 +5,16 @@ Class {
 }
 
 { #category : #tests }
+SpiderGitDemoFeature123Test >> testComment [
+
+	| i |
+	
+	i := SpiderGitDemoFeature123 new.
+	i comment: 'Blah'.
+	self assert: i comment equals: 'Blah'
+]
+
+{ #category : #tests }
 SpiderGitDemoFeature123Test >> testIncluder [
 
 	| instance |
